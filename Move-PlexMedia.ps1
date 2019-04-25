@@ -6,9 +6,9 @@ It supports two storage locations, primary and secondary
 Items with a rating above the threshold set below are moved to the primary location
 Items with a rating equal to or below the threshold are moved to the secondary location
 
-The rating is expressed as stars in the Plex UI (1 to 5) but stored as a value
-twice the number of stars (so between 0 and 10).
-2 stars = rating 4
+The rating is expressed as stars in the Plex UI (1 to 5) to a resolution of half-stars and is stored as a value between 0 and 10.
+2 stars   = rating 4
+2.5 stars = rating 5
 
 Requires a Plex authentication token
 Temporary: https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/
